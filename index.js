@@ -6,6 +6,10 @@ const app = express();
 
 const port = 3000;
 
+// const json = {
+//     name:"start"
+// }
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
